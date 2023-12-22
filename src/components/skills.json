@@ -1,0 +1,36 @@
+ [
+
+    {
+      "title": "HTML",
+      "image Src": "./images/png-transparent-logo-html-html5.png "
+     
+    },
+
+    {
+      "title": "CSS",
+      "imageSrc": "images/"
+     
+    },
+
+    {
+      "title": "JavaScript",
+      "imageSrc": "images/JavaScript image.png"
+     
+    },
+
+    {
+      "title": "React",
+      "imageSrc": "images/Reactimage.png"
+     
+    },
+
+    {
+      "title": "Azure DevOps",
+      "imageSrc": "images/AzureDevOpsimage.jpg"
+     
+    }
+
+    
+     
+]
+

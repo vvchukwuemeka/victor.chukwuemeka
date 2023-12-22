@@ -1,0 +1,32 @@
+[
+
+    {
+      "title": "Project A",
+      "image Src": "./images/png-transparent-logo-html-html5.png ",
+      "descriptipn": " Hogwart Group of schools",
+      "skills": ["HTML", "CSS"],
+      "demo": ""
+     
+    },
+
+    {
+        "title": "Project A",
+        "image Src": "./images/png-transparent-logo-html-html5.png ",
+        "descriptipn": " eGen Project",
+        "skills": ["HTML", "CSS"],
+        "demo": ""
+       
+      },
+
+      {
+        "title": "Project A",
+        "image Src": "./images/png-transparent-logo-html-html5.png ",
+        "descriptipn": " Hogwart Group of schools",
+        "skills": ["HTML", "CSS"],
+        "demo": ""
+       
+      }
+  
+     
+]
+

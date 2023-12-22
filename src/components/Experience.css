@@ -1,0 +1,158 @@
+#experience {
+    overflow: hidden;
+    width: 100vw;
+    max-width: 65rem;
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    justify-content: left;
+    text-align: left;
+    margin: 35px auto;
+    
+}
+
+.experienceTitle {
+    color: var(--color-text);
+    font-size: 2rem;
+    font-weight: 600;
+    padding-top: 3rem;
+    margin-bottom: 1.5rem;
+    letter-spacing: 1.75px;
+    text-transform: uppercase;
+    text-align: center;
+    
+}
+
+.experienceItems {
+    color: var(--color-text);
+    display:flex;
+    flex-direction: column;
+    gap: 50px;
+    margin: 1.5rem;
+    width: 100vw;
+    max-width: 80%;
+    text-align: left;
+    justify-content: space-evenly;
+}
+
+.experienceItem {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    border-radius: 20px;
+    list-style: none;
+    padding: 25px;
+    background-image: linear-gradient(90deg, rgba(165,215,232,0.42) 0%,
+                                             rgba(255,255,255,0) 100%);
+    background-size: 0 100%;
+    background-repeat: no-repeat;  
+    transition: 0.4s;                                       
+}
+.experienceItem:hover {
+    background-size: 100% 100%;
+}
+.experienceImg {
+    object-fit: cover;
+    height: 5rem;
+    width: 5rem;
+    margin-right: 2rem;
+}
+
+.experienceItemText {
+    font-size: 0.9rem;
+    font-weight: 200;
+
+}
+
+.skillTitle {
+    color: var(--color-text);
+    font-size: 1.5rem;
+    font-weight: 400;
+    padding-top: 3rem;
+    margin-bottom: 1.5rem;
+    letter-spacing: 1.75px;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.workTitle {
+    color: var(--color-text);
+    font-size: 1.5rem;
+    font-weight: 400;
+    padding-top: 3rem;
+    margin-bottom: 1.5rem;
+    letter-spacing: 1.75px;
+    text-transform: uppercase;
+    text-align: center;
+    
+    
+}
+
+.workItems {
+    color: var(--color-text);
+    display:flex;
+    flex-direction: column;
+    gap: 50px;
+    margin: 1.5rem;
+    width: 100vw;
+    max-width: 80%;
+    text-align: left;
+    justify-content: space-evenly;
+
+}
+
+.workItem {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    border-radius: 20px;
+    list-style: none;
+    padding: 25px;
+    background-image: linear-gradient(90deg, rgba(165,215,232,0.42) 0%,
+                                             rgba(255,255,255,0) 100%);
+    background-size: 0 100%;
+    background-repeat: no-repeat;  
+    transition: 0.4s; 
+    justify-content: space-evenly;  
+    font-weight: 300;
+    
+    
+    
+    
+    
+                                        
+}
+.workItem:hover {
+    background-size: 100% 100%;
+}
+.workImg {
+    object-fit: cover;
+    height: 5rem;
+    width: 5rem;
+    margin-right: 2rem;
+}
+
+.workRole {
+padding: 0 2rem;
+width: 5rem;
+margin-right: 2rem;
+}
+
+.city {
+padding: 0 2rem;
+width: 5rem;
+margin-right: 2rem;
+
+}
+
+.workPlace {
+    padding:0 2rem ;
+}
+
+.workDesc {
+    
+    padding: 0 2rem;
+    text-align: right;
+    justify-content: space-evenly;
+    
+}

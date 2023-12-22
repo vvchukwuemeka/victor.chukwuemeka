@@ -1,0 +1,125 @@
+.navbar {
+    height: 5rem;
+    width: 100vw;
+    margin: 0 auto; 
+    max-width: 75rem;
+    padding: 1rem 2rem;
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+    position: sticky;
+    top: 0;
+    z-index: 3;
+    
+
+}
+
+.navLogo {
+    height: 25px;
+    width: 25px;    
+    font-weight: 2500;
+    font-size: xx-large;
+    font-family: 'Lucida Sans';
+    color:#eb4274;
+    
+
+} 
+
+.navMenu {
+    display: flex;
+    height: 100%;
+    width: 100px;
+}
+
+
+.navMenuListItem {
+    display: flex;
+    list-style: none;
+    text-align: center;
+    margin: 1rem;
+    cursor: pointer;
+         
+
+}
+
+.navMenuIcon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 1rem;
+    padding: 0 1rem;
+    border-radius: 2rem;
+    cursor: pointer;
+    height: 2rem;
+    
+}
+    
+
+
+
+    
+.navMenuListItem:hover {
+    color: rgb(152, 207, 84);
+    padding: 0.5rem;
+    
+
+}
+
+
+.navMenuListItem li {
+    display: inline;
+    margin: 0 16px;
+    display: hover;
+    
+}
+
+
+.navMenuBtn {
+    background: white;
+    color: black;
+    border: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0 1rem;
+    border-radius: 2rem;
+    cursor: pointer;
+}
+.logo {
+    object-fit: cover;
+    height: 3rem;
+    width: 4rem;
+}
+
+@media screen and (max-width: 830px) {
+.navbar {
+    flex-direction: column;
+    align-items: flex-start;
+}  
+.navMenu {
+    position: absolute;
+    right: 0;
+    margin-right: 10px;
+    flex-direction: column;
+    align-items: flex-end;
+    gap: 11px;
+    z-index: 3;
+}
+
+.navMenuIcon {
+    display: block;
+    cursor: pointer;
+}
+
+.navMenuListItem {
+    flex-direction: column;
+    align-items: center;
+    gap: 13px;
+    border-radius: 10px;
+    background: rgb 30, 40, 50;
+    background: linear-gradient(0deg rgba (25,25,60));
+    padding: 24px 33px;
+    box-shadow: 0 0 4px;
+}
+ 
+}
